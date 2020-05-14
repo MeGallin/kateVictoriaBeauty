@@ -1,0 +1,25 @@
+.footerWrapper {
+  font-size: 0.8em;
+}
+.footerInnerWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footerContent {
+  border: red 2px solid;
+  flex-grow: 1;
+}
+
+.tcWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Media Queries */
+@media all and (max-width: 580px) {
+  .footerContent {
+    width: 100%;
+  }
+}

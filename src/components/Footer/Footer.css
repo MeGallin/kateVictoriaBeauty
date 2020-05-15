@@ -2,7 +2,7 @@ footer {
   /* border: 4px yellow solid; */
 }
 .footerWrapper {
-  border: var(--colour-secondary) 1px solid;
+  /* border: var(--colour-secondary) 1px solid; */
   padding: 0.1em 0;
   font-size: 0.8em;
 }
@@ -44,11 +44,6 @@ footer {
   justify-content: space-between;
 }
 
-.imgResponsive {
-  width: 100%;
-  height: auto;
-}
-
 /* Media Queries */
 @media all and (max-width: 768px) {
   .footerContent {
@@ -58,8 +53,4 @@ footer {
     display: flex;
     justify-content: space-evenly;
   }
-  /* .imgResponsive {
-    width: 100%;
-    height: auto;
-  } */
 }

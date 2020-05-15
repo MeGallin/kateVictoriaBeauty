@@ -3,6 +3,7 @@ import './Footer.css';
 import { Link } from 'react-router-dom';
 import { DateTime } from '../../components';
 import { SocialMedia } from '../../components';
+import makeUpPlaceHolder from '../../assets/images/makeUp-temp.png';
 
 const Footer = () => {
   return (
@@ -12,28 +13,28 @@ const Footer = () => {
           <div>
             <img
               className="imgResponsive"
-              src="https://via.placeholder.com/180"
+              src={makeUpPlaceHolder}
               alt="email icon"
             />
           </div>
           <div>
             <img
               className="imgResponsive"
-              src="https://via.placeholder.com/180"
+              src={makeUpPlaceHolder}
               alt="email icon"
             />
           </div>
           <div>
             <img
               className="imgResponsive"
-              src="https://via.placeholder.com/180"
+              src={makeUpPlaceHolder}
               alt="email icon"
             />
           </div>
           <div>
             <img
               className="imgResponsive"
-              src="https://via.placeholder.com/180"
+              src={makeUpPlaceHolder}
               alt="email icon"
             />
           </div>
@@ -65,7 +66,12 @@ const Footer = () => {
         <div className="tcWrapper">
           <div>Kate Victoria Beauty &copy;</div>
           <div>
-            <span>Privacy Policies | Terms & Conditions</span>
+            <span>
+              <Link to={'/terms-and-conditions'}>Terms & Conditions</Link> |
+              <a href="https://wwww.trilogywebsolutions.co.u">
+                Trilogy Web Solutions
+              </a>
+            </span>
           </div>
         </div>
         <div>

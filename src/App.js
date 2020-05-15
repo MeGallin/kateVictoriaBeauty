@@ -14,6 +14,7 @@ import {
   About,
   Error404,
   Footer,
+  TermsAndConditions,
 } from './components';
 
 class App extends React.Component {
@@ -23,13 +24,19 @@ class App extends React.Component {
         <Router>
           <Header />
           <Switch>
+            <Route path="/home" exact={true} component={Home} />
             <Route path="/" exact={true}>
               <Redirect to="/home" />
             </Route>
-            <Route path="/home" exact={true} component={Home} />
+
             <Route path="/contact" exact={true} component={Contact} />
             <Route path="/faq" exact={true} component={Faq} />
             <Route path="/about" exact={true} component={About} />
+            <Route
+              path="/terms-and-conditions"
+              exact={true}
+              component={TermsAndConditions}
+            />
             <Route component={Error404} />
           </Switch>
           <Footer />

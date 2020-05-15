@@ -1,9 +1,3 @@
-.imgResponsive {
-  width: 100%;
-  height: auto;
-  border: red 2px pink;
-}
-
 /* GA Helper classes */
 .border-temp {
   border: 1px solid var(--colour-border-temp);

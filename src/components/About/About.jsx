@@ -4,7 +4,7 @@ const About = () => {
   return (
     <React.Fragment>
       <section>
-        <h1>About's Compt</h1>
+        <h1>About Page</h1>
       </section>
     </React.Fragment>
   );

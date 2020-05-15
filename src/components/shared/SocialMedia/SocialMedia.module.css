@@ -1,3 +1,4 @@
 .SocialMediaWrapper {
-  background: lawngreen;
+  display: flex;
+  justify-content: space-around;
 }

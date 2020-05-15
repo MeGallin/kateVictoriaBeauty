@@ -1,17 +1,42 @@
 import React from 'react';
 import './App.css';
-import { Header, Home, Footer } from './components';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom';
+import {
+  Header,
+  Home,
+  Contact,
+  Faq,
+  About,
+  Error404,
+  Footer,
+} from './components';
 
-const App = () => {
-  return (
-    <React.Fragment>
-      <div className="container">
-        <Header />
-        <h1>App comp</h1>
-        <Footer />
-      </div>
-    </React.Fragment>
-  );
-};
+class App extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Router>
+          <Header />
+          <Switch>
+            <Route path="/" exact={true}>
+              <Redirect to="/home" />
+            </Route>
+            <Route path="/home" exact={true} component={Home} />
+            <Route path="/contact" exact={true} component={Contact} />
+            <Route path="/faq" exact={true} component={Faq} />
+            <Route path="/about" exact={true} component={About} />
+            <Route component={Error404} />
+          </Switch>
+          <Footer />
+        </Router>
+      </React.Fragment>
+    );
+  }
+}
 
 export default App;

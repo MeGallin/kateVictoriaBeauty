@@ -1,17 +1,22 @@
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
 }
 /* Create CSS variable */
 :root {
-  --colour-body-background: #fff4ec;
+  --colour-body: #fff4ec;
+  --colour-primary: #ffd3b6;
+  --colour-secondary: #c59691;
+  --colour-flesh: #e68358;
   --colour-border-temp: rgba(255, 0, 0, 0.5);
+  --body-height: 100vh;
 }
 body {
   display: flex;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--colour-body);
+  height: var(--body-height);
 }
 h1,
 h2,
@@ -27,4 +32,11 @@ h3 {
   letter-spacing: 2px;
   text-align: center;
   padding-bottom: 6px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
 }

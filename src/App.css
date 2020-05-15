@@ -1,9 +1,7 @@
-.container {
-  border: 10px solid green;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  padding: 0.2em;
+.imgResponsive {
+  width: 100%;
+  height: auto;
+  border: red 2px pink;
 }
 
 /* GA Helper classes */

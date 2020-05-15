@@ -28,7 +28,7 @@ const Header = () => {
             </li>
             <li>
               <Link onClick={() => SetOpen(!open)} to={'/faq'}>
-                FQA
+                FQA's
               </Link>
             </li>
             <li>

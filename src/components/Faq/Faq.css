@@ -1,0 +1,34 @@
+section .fnqWrapper {
+  margin: auto;
+}
+.fnqWrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.question {
+  /* border: var(--colour-secondary) 1px solid; */
+  font-size: 1.6em;
+  padding: 0.4em;
+  width: 100%;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+.question:hover {
+  opacity: 0.6;
+}
+.answer {
+  width: 100%;
+  margin-bottom: 6px;
+}
+.answerInner {
+  background-color: var(--colour-secondary);
+  padding: 0.4em;
+  width: 100%;
+  color: white;
+}
+
+.fade {
+  opacity: 0.2;
+}

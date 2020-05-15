@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <React.Fragment>
       <section>
-        <h1>Contact's Compt</h1>
+        <h1>Contact me page</h1>
       </section>
     </React.Fragment>
   );

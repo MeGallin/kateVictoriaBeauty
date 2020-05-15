@@ -4,7 +4,7 @@ const Faq = () => {
   return (
     <React.Fragment>
       <section>
-        <h1>FAQ's Compt</h1>
+        <h1>FAQ's page</h1>
       </section>
     </React.Fragment>
   );

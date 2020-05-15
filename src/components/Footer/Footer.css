@@ -2,6 +2,8 @@ footer {
   /* border: 4px yellow solid; */
 }
 .footerWrapper {
+  border: var(--colour-secondary) 1px solid;
+  padding: 0.1em 0;
   font-size: 0.8em;
 }
 .imageWrapper {
@@ -14,10 +16,28 @@ footer {
   flex-wrap: wrap;
 }
 .footerContent {
-  border: var(--colour-secondary) 1px solid;
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.navLinksWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.footerNavLinks {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.footerNavLinks li a {
+  color: var(--colour-secondary);
+  text-decoration: none;
+}
+.footerNavLinks li a:hover {
+  background-color: var(--colour-secondary);
+  color: var(--colour-body);
+}
 .tcWrapper {
   width: 100%;
   display: flex;

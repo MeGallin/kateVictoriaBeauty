@@ -1,0 +1,6 @@
+section .galleryWrapper {
+  margin: auto;
+}
+.galleryWrapper {
+  width: 80%;
+}

@@ -5,7 +5,6 @@ import {
   Switch,
   Route,
   Redirect,
-  HashRouter,
 } from 'react-router-dom';
 import {
   Header,
@@ -25,7 +24,7 @@ class App extends React.Component {
       <React.Fragment>
         <Router>
           <Header />
-          <Switch>
+          <Switch key="switch">
             <Route path="/home" exact={true} component={Home} />
             <Route path="/" exact={true}>
               <Redirect to="/home" />

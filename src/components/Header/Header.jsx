@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/images/logo.png';
 
 const Header = () => {
   const [open, SetOpen] = useState(false);
@@ -11,7 +12,14 @@ const Header = () => {
         <nav>
           <div className="navWrapper">
             <div className="logo">
-              <Link to={'/home'}>LOGO TO FOLLOW</Link>
+              <Link to={'/home'}>
+                <img
+                  src={logo}
+                  alt="Kate Victoria Beauty"
+                  height="50"
+                  width="208"
+                />
+              </Link>
             </div>
             <div className="hamburger" onClick={() => SetOpen(!open)}>
               <div className="line"></div>
@@ -46,6 +54,7 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
+            <div className="logo"></div>
           </div>
         </nav>
       </header>

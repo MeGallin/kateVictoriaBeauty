@@ -1,0 +1,17 @@
+section .contactWrapper {
+  margin: auto;
+}
+.contactWrapper {
+  width: 80%;
+}
+.innerContactWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media all and (max-width: 768px) {
+  .innerContactWrapper {
+    flex-direction: column;
+  }
+}

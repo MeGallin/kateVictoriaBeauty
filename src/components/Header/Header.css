@@ -1,10 +1,19 @@
 header {
   width: 100%;
 }
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+}
 nav {
   width: 100%;
-  height: 10vh;
+  /* height: 8vh; */
   background-color: var(--colour-secondary);
+}
+.logo {
+  border: red 4px solid;
+  display: flex;
+  flex-direction: column;
 }
 .navLinks {
   display: flex;
@@ -13,7 +22,7 @@ nav {
   height: 100%;
   justify-content: space-around;
   align-items: center;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 .navLinks li a {
   color: var(--colour-body);

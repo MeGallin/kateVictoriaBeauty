@@ -9,8 +9,8 @@ section .fnqWrapper {
 }
 .question {
   /* border: var(--colour-secondary) 1px solid; */
-  font-size: 1.6em;
-  padding: 0.4em;
+  font-size: 1.2em;
+  padding: 0.2em;
   width: 100%;
   margin-bottom: 6px;
   cursor: pointer;
@@ -24,7 +24,7 @@ section .fnqWrapper {
 }
 .answerInner {
   background-color: var(--colour-secondary);
-  padding: 0.4em;
+  padding: 0.2em;
   width: 100%;
   color: white;
 }

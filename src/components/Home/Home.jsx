@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <section>
-        <h1>Home Page</h1>
+        <h1>Home Page to Follow</h1>
       </section>
     </React.Fragment>
   );

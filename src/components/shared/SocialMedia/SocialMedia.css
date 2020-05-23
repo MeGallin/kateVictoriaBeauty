@@ -1,5 +1,13 @@
 .SocialMediaWrapper {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-around; */
+}
+/* Media Queries */
+@media all and (max-width: 768px) {
+  .SocialMediaWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }

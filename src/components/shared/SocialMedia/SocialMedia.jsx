@@ -1,35 +1,42 @@
 import React from 'react';
 import './SocialMedia.css';
+import instagramIcon from '../../../assets/icons/Active-Instagram-1-icon.png';
+import faceBookIcon from '../../../assets/icons/facebook-icon.png';
 
 const SocialMedia = () => {
   return (
     <React.Fragment>
       <div className="SocialMediaWrapper">
-        <h3>Social Media links</h3>
         <div>
-          <img
-            src="https://via.placeholder.com/32"
-            alt="email icon"
-            height="32"
-            width="32"
-          />
+          <a
+            href="https://www.instagram.com/katevictoriabeauty/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              title="instagram"
+              src={instagramIcon}
+              alt="email icon"
+              height="48"
+              width="48"
+            />
+          </a>
         </div>
 
         <div>
-          <img
-            src="https://via.placeholder.com/32"
-            alt="email icon"
-            height="32"
-            width="32"
-          />
-        </div>
-        <div>
-          <img
-            src="https://via.placeholder.com/32"
-            alt="email icon"
-            height="32"
-            width="32"
-          />
+          <a
+            href="https://m.facebook.com/KateVictoriaBeauty9/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              title="facebook"
+              src={faceBookIcon}
+              alt="email icon"
+              height="48"
+              width="48"
+            />
+          </a>
         </div>
       </div>
     </React.Fragment>

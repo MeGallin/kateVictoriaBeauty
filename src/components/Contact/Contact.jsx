@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import { ContactForm } from '../../components';
-import makeUpPlaceHolder from '../../assets/images/makeUp-temp.png';
+import makeUpPlaceHolder from '../../assets/images/img-8.png';
 
 const Contact = () => {
   return (
@@ -22,9 +22,11 @@ const Contact = () => {
                 <p>Guildford</p>
                 <p>GU1 XXX</p>
                 <p>Contact number</p>
-                <p>123-3344556</p>
+                <p>
+                  Email: <a href="mailto:katevictoriabeauty9@gmail.com">Kate</a>
+                </p>
               </div>
-              <div>
+              <div className="imageDimensions">
                 <img
                   className="imgResponsive"
                   src={makeUpPlaceHolder}

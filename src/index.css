@@ -47,13 +47,27 @@ section {
   padding-bottom: 1em;
 }
 .imgBorder {
-  border: solid 1px var(--colour-flesh);
+  background: rgb(255, 244, 236);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 244, 236, 1) 0%,
+    rgba(255, 211, 182, 1) 56%,
+    rgba(230, 131, 88, 1) 100%
+  );
+  /* border: solid 1px var(--colour-flesh); */
   padding: 0.3%;
 }
 .imgResponsive {
   background-color: white;
+  background: rgb(255, 244, 236);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 244, 236, 1) 0%,
+    rgba(255, 211, 182, 1) 56%,
+    rgba(230, 131, 88, 1) 100%
+  );
   width: 100%;
   height: auto;
-  border: solid 1px var(--colour-flesh);
+  /* border: solid 1px var(--colour-flesh); */
   padding: 1%;
 }

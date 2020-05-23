@@ -8,6 +8,12 @@ section .contactWrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
+}
+
+.imageDimensions {
+  width: 120px;
+  height: 120px;
 }
 
 @media all and (max-width: 768px) {

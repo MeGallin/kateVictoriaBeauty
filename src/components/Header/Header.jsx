@@ -54,7 +54,7 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-            <div className="logo"></div>
+            {/* <div className="logo"></div> */}
           </div>
         </nav>
       </header>
